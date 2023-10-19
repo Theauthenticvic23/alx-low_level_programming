@@ -1,18 +1,13 @@
 #include <stdio.h>
 
-/**
- * mystartupfun - apply
- * is executed before main()
- */
-
-void mystartupfun(void) __attribute__((constructor));
+void first(void) __attribute__ ((constructor));
 
 /**
- * mystartupfun - implementation of mystartupfun
+ * first - prints a sentence before the main
+ * function is executed
  */
-
-void mystartupfun(void)
+void firat(void)
 {
-	printf("You are the beat! and yet, you must allow,\n");
+	printf("You're beat! and yet, you must allow, \n");
 	printf("I bore my house upon my back!\n");
 }
