@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * print_list - school students
  * @h: list
- * Return: nothing
+ * Return: number of nodes
  */
 size_t print_list(const list_t *h)
 {
