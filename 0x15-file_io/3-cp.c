@@ -4,7 +4,7 @@
 
 /**
  * error_file - checks file
- * file_from: from
+ * @file_from: from
  * @file_to: to
  * @argv: args
  * Return: nothing
